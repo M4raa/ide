@@ -1,6 +1,14 @@
 import java.util.Scanner;
+
+/**
+ * @author david
+ */
     public class Main {
         public static void main(String[] args) {
+            /**
+             * @param dato
+             * @param vector[]
+             */
             Scanner teclado=new Scanner(System.in);
             System.out.println("Introduce el número para la criba de Erastótenes:");
             int dato=teclado.nextInt();
